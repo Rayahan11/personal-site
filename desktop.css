@@ -1,0 +1,130 @@
+/* For Desktop */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/* navbar design starts from here */
+.nav-logo{
+    text-align: left;
+}
+.nav-logo img {
+    margin-top: 9px;
+}
+.nav-heading h1{
+    text-align: right;
+}
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 20px 0px;
+    background-color: transparent;
+}
+/* navbar design ends here */
+
+
+
+/* profile design starts from here  */
+
+.profile .top-weather-icon{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    width: 120px;
+    transition: transform 2s;
+}
+.profile-desc p{
+    color: gray;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.profile .bottom-weather-icon{
+    left: 100px;
+    bottom: 20px;
+    transition: transform 2s;
+}
+
+/* profile design starts from here  */
+
+
+
+/* about me design starts from here */
+
+.about-image{
+    margin-top: 100px;
+}
+.about-image img{
+    width: 230px;
+    height: 250px;
+}
+.about-desc p{
+    text-align: left;
+}
+
+
+
+/* about me design ends here */
+
+
+
+/* professinal-experience starts from here */
+
+.professional-experience{
+    padding: 1% 5%;
+}
+
+
+/* professinal-experience ends here */
+
+
+
+/* acheivement contact starts from here */
+
+.contact button{
+    width: 130px;
+
+}
+.contact-list{
+    position: relative;
+}
+.media-buttons{
+    position: absolute;
+    width: 230px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 180px;
+}
+
+
+/* acheivement contact ends here */
+
+
+/* footer starts from here */
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 4px;
+}
+
+
+/* footer ends here */
